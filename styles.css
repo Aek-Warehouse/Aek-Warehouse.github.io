@@ -145,7 +145,7 @@ main.detail-page:has(a[href*="skin-aging"]) .detail-visual .visual-caption { dis
 .gibson-visual .activity-asset { background:#08264c; height:100%; inset:0; object-fit:contain; position:absolute; width:100%; z-index:0; }
 .stanford-visual { background:transparent !important; min-height:410px; overflow:hidden; padding:0; }
 .stanford-visual::after { display:none; }
-.stanford-logo { display:block; height:100%; margin:0 auto; object-fit:contain; transform:translateY(-400px); width:100%; }
+.stanford-logo { display:block; height:100%; margin:0 auto; object-fit:contain; transform:translateY(-100px); width:100%; }
 .stanford-visual .visual-caption { display:none; }
 .sumac-sections { margin-top:46px; }
 .sumac-sections section { border-top:1px solid var(--line); padding:24px 0 8px; }
@@ -154,7 +154,7 @@ main.detail-page:has(a[href*="skin-aging"]) .detail-visual .visual-caption { dis
 .sumac-project-link { border-bottom:1px solid var(--ink); display:inline-block; font-size:18px; margin-top:18px; padding-bottom:5px; }
 .sumac-note { color:var(--muted) !important; font-size:18px !important; line-height:1.6 !important; margin-top:42px; }
 @media (max-width:700px) {
-  .stanford-logo { transform:translateY(-280px); }
+  .stanford-logo { transform:translateY(-70px); }
   .sumac-sections { margin-top:38px; }
   .sumac-sections p { font-size:20px; }
   .sumac-project-link { font-size:17px; }
