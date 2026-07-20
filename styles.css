@@ -357,7 +357,7 @@ main.detail-page:has(a[href*="skin-aging"]) .detail-visual .visual-caption { dis
     display:block;
     height:75%;
     object-fit:contain;
-    transform:translateY(30px);
+    transform:translateY(20px);
     width:75%;
   }
   .deca-visual {
