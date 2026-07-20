@@ -351,16 +351,21 @@ main.detail-page:has(a[href*="skin-aging"]) .detail-visual .visual-caption { dis
   }
   .stanford-logo {
     height:100%;
+    object-fit:contain;
+    transform:none;
     width:100%;
   }
   main.detail-page:has(.deca-gallery) .detail-visual {
+    background:var(--paper) url("assets/deca/ChatGPT Image Jul 19, 2026, 01_34_29 PM.png") center / contain no-repeat !important;
     height:290px;
     min-height:290px;
     width:100%;
   }
+  main.detail-page:has(.deca-gallery) .detail-visual::after {
+    display:none;
+  }
   main.detail-page:has(.deca-gallery) .detail-visual .visual-mark {
-    height:100%;
-    width:100%;
+    display:none;
   }
   .deca-event img,
   .retirement-gallery img,
