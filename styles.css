@@ -319,3 +319,52 @@ main.detail-page:has(a[href*="skin-aging"]) .detail-visual .visual-caption { dis
   .gibson-section p,
   .pitt-page .detail-copy > p { font-size:20px; }
 }
+
+/* Keep visual assets inside the viewport on narrow screens. */
+@media (max-width:700px) {
+  .detail-visual:not(.stanford-visual) {
+    align-items:center;
+    display:flex;
+    height:290px;
+    justify-content:center;
+    min-height:290px;
+    padding:0;
+    width:100%;
+  }
+  .detail-visual > img:not(.activity-asset) {
+    display:block;
+    height:100%;
+    max-height:none;
+    max-width:none;
+    object-fit:contain;
+    width:100%;
+  }
+  .gibson-visual .activity-asset {
+    height:100%;
+    max-width:none;
+    width:100%;
+  }
+  .stanford-visual {
+    height:290px;
+    min-height:290px;
+    padding:0;
+  }
+  .stanford-logo {
+    height:100%;
+    width:100%;
+  }
+  main.detail-page:has(.deca-gallery) .detail-visual {
+    height:290px;
+    min-height:290px;
+    width:100%;
+  }
+  main.detail-page:has(.deca-gallery) .detail-visual .visual-mark {
+    height:100%;
+    width:100%;
+  }
+  .deca-event img,
+  .retirement-gallery img,
+  .photo-lightbox img {
+    max-width:100%;
+  }
+}
