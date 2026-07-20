@@ -1,18 +1,10 @@
 window.ctfWriteups = [
   {
-    challenge: '[ADD CHALLENGE NAME]',
-    competition: '[ADD COMPETITION]',
-    category: '[ADD CATEGORY]',
-    date: '[ADD DATE]',
-    summary: '[ADD SHORT WRITEUP SUMMARY HERE]',
-    url: ''
-  },
-  {
-    challenge: '[ADD CHALLENGE NAME]',
-    competition: '[ADD COMPETITION]',
-    category: '[ADD CATEGORY]',
-    date: '[ADD DATE]',
-    summary: '[ADD SHORT WRITEUP SUMMARY HERE]',
-    url: ''
+    challenge: 'LYKNCTF',
+    competition: 'LYKNCTF',
+    category: '',
+    date: '',
+    summary: 'Challenges: Blogspace Admin, Discord1, Discord2, Glyph Cache, Golfing, Replay Jasmine, Shop, Thanh Hoa 1, and Thanh Hoa 2.',
+    url: 'https://github.com/Aek-Warehouse/Ctf-Writeups/tree/main/LYKNCTF'
   }
 ];
