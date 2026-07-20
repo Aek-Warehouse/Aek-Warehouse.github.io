@@ -304,7 +304,7 @@ main.detail-page:has(a[href*="skin-aging"]) .detail-visual .visual-caption { dis
 .steel-city-timeline strong,
 .gibson-stat-strip strong { font-size:31px; }
 .projects-section .project-row h3 { font-size:30px; line-height:1.15; }
-.activity-main em { font-size:19px; line-height:1.6; }
+.activity-main em { font-size:17px; line-height:1.6; }
 .projects-section .project-row p { font-size:26px; line-height:1.6; }
 .projects-section .project-row { cursor:pointer; transition:background .2s ease, padding .2s ease, transform .2s ease; }
 .projects-section .project-row:hover,
@@ -312,7 +312,7 @@ main.detail-page:has(a[href*="skin-aging"]) .detail-visual .visual-caption { dis
 @media (max-width:700px) {
   .hero-intro { font-size:22px; }
   .projects-section .project-row h3 { font-size:27px; }
-  .activity-main em { font-size:18px; }
+  .activity-main em { font-size:16px; }
   .projects-section .project-row p { font-size:24px; }
   .concordia-sections p,
   .project-water-sections p,
@@ -357,7 +357,7 @@ main.detail-page:has(a[href*="skin-aging"]) .detail-visual .visual-caption { dis
     display:block;
     height:75%;
     object-fit:contain;
-    transform:translateY(40px);
+    transform:translateY(30px);
     width:75%;
   }
   .deca-visual {
