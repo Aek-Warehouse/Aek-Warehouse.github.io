@@ -346,16 +346,19 @@ main.detail-page:has(a[href*="skin-aging"]) .detail-visual .visual-caption { dis
     width:100%;
   }
   .stanford-visual {
+    align-items:center;
+    display:flex;
+    justify-content:center;
     height:290px;
     min-height:290px;
     padding:0;
   }
   .stanford-logo {
     display:block;
-    height:100%;
+    height:75%;
     object-fit:contain;
-    transform:none;
-    width:100%;
+    transform:translateY(40px);
+    width:75%;
   }
   .deca-visual {
     background:var(--paper) !important;
