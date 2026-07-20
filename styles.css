@@ -257,6 +257,7 @@ main.detail-page:has(a[href*="skin-aging"]) .detail-visual .visual-caption { dis
 .deca-contribution p { font-size:22px; line-height:1.8; }
 .deca-contribution-label { font-size:18px !important; line-height:1.5 !important; }
 .deca-highlights strong { font-size:22px; }
+.deca-logo { display:none; }
 
 /* Final minimums for text that was still rendering too small on detail pages. */
 .deca-event h3,
@@ -303,7 +304,7 @@ main.detail-page:has(a[href*="skin-aging"]) .detail-visual .visual-caption { dis
 .steel-city-timeline strong,
 .gibson-stat-strip strong { font-size:31px; }
 .projects-section .project-row h3 { font-size:30px; line-height:1.15; }
-.activity-main em,
+.activity-main em { font-size:19px; line-height:1.6; }
 .projects-section .project-row p { font-size:26px; line-height:1.6; }
 .projects-section .project-row { cursor:pointer; transition:background .2s ease, padding .2s ease, transform .2s ease; }
 .projects-section .project-row:hover,
@@ -311,7 +312,7 @@ main.detail-page:has(a[href*="skin-aging"]) .detail-visual .visual-caption { dis
 @media (max-width:700px) {
   .hero-intro { font-size:22px; }
   .projects-section .project-row h3 { font-size:27px; }
-  .activity-main em,
+  .activity-main em { font-size:18px; }
   .projects-section .project-row p { font-size:24px; }
   .concordia-sections p,
   .project-water-sections p,
@@ -350,23 +351,25 @@ main.detail-page:has(a[href*="skin-aging"]) .detail-visual .visual-caption { dis
     padding:0;
   }
   .stanford-logo {
+    display:block;
     height:100%;
     object-fit:contain;
     transform:none;
     width:100%;
   }
-  main.detail-page:has(.deca-gallery) .detail-visual {
-    background:var(--paper) url("assets/deca/ChatGPT Image Jul 19, 2026, 01_34_29 PM.png") center / contain no-repeat !important;
-    height:290px;
-    min-height:290px;
+  .deca-visual {
+    background:var(--paper) !important;
+    overflow:hidden;
+  }
+  .deca-visual::after { display:none; }
+  .deca-logo {
+    display:block;
+    height:100%;
+    object-fit:contain;
     width:100%;
   }
-  main.detail-page:has(.deca-gallery) .detail-visual::after {
-    display:none;
-  }
-  main.detail-page:has(.deca-gallery) .detail-visual .visual-mark {
-    display:none;
-  }
+  .deca-visual .visual-mark,
+  .deca-visual .visual-caption { display:none; }
   .deca-event img,
   .retirement-gallery img,
   .photo-lightbox img {
